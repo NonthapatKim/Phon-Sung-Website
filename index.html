@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>เทศบาลตำบลโพนสูง</title>
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/img/logo_Phongsung_sub_header.png"
+              width="350"
+              height="50"
+              alt="logo_header"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto d-lg-none d-xl-none mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section
+      class="Nav-desktop container-fluid p-3 d-none d-sm-none d-md-none d-lg-block d-xl-block"
+      style="background-color: #007fc4"
+    >
+      <div class="container">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link text-white active" aria-current="page" href="#"
+              >หน้าหลัก</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">ข้อมูลพื้นฐาน</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">ข่าวประชาสัมพันธ์</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">ภาพกิจกรรม</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">ประกาศจัดซื้อจัดจ้าง</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">ติดต่อหน่วยงาน</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">สำหรับผู้ดูแลระบบ</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Carousel wrapper -->
+    <div
+      id="carouselBasicExample"
+      class="carousel slide carousel-fade mb-5"
+      data-mdb-ride="carousel"
+      data-mdb-carousel-init
+    >
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <!-- Inner -->
+      <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp"
+            class="d-block w-100"
+            alt="Sunset Over the City"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp"
+            class="d-block w-100"
+            alt="Canyon at Nigh"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"
+            class="d-block w-100"
+            alt="Cliff Above a Stormy Sea"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Inner -->
+
+      <!-- Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-mdb-target="#carouselBasicExample"
+        data-mdb-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Carousel wrapper -->
+
+
+    <div class="brand container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 style="line-height: 150%;">"โพนสูงถิ่นลำเสียวใหญ่ <br/> ก้าวไกลดิจิทัล <br/> สร้างสรรค์ศิลปวัฒนธรรม <br/> เลิศล้ำน้ำผึ้งหวาน <br/> สืบสานวิถีชีวิตพอเพียง"</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                <h3>ข่าวประชาสัมพันธ์</h3>
+                <hr width="100" class="new4">
+
+                <div class="pr-detail">
+                    <div class="row">
+                        <div class="col-12">
+                            <p style="color: #007fc4;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, magni. Nam, earum vel distinctio ipsa illum alias assumenda, tempora ratione autem iste non expedita repudiandae hic sapiente modi voluptas laborum.</p>
+
+                            <hr width="150">
+
+                            <p style="color: #007fc4;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, magni. Nam, earum vel distinctio ipsa illum alias assumenda, tempora ratione autem iste non expedita repudiandae hic sapiente modi voluptas laborum.</p>
+
+                            <hr width="150">
+
+                            <p style="color: #007fc4;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, magni. Nam, earum vel distinctio ipsa illum alias assumenda, tempora ratione autem iste non expedita repudiandae hic sapiente modi voluptas laborum.</p>
+
+                            <hr width="150">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <div class="list">
+                    <div class="row">
+                        <div class="col-12 mb-5">
+                            <h3>ทำเนียบบุคลากร</h3>
+                            <hr width="100" class="new4">
+
+                            <div class="head-detail mt-2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>คณะผู้บริหาร</p>
+                                        <hr>
+
+                                        <p>สมาชิกสภาเทศบาล</p>
+                                        <hr>
+
+                                        <p>หัวหน้าส่วนราชการ</p>
+                                        <hr>
+
+                                        <p>สำนักปลัดเทศบาล</p>
+                                        <hr>
+
+                                        <p>กองการศึกษา</p>
+                                        <hr>
+                                        
+                                        <p>กองคลัง</p>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 mb-5">
+                            <h3>แผนงาน/งบประมาณ</h3>
+                            <hr width="100" class="new4">
+
+                            <div class="head-detail mt-2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>เทศบัญญัติงบประมาณรายจ่าย</p>
+                                        <hr>
+
+                                        <p>ประกาศโอนงบประมาณรายจ่ายประจำปี/แก้ไขคำชี้แจง</p>
+                                        <hr>
+
+                                        <p>แผนอัตรากำลังสามปี</p>
+                                        <hr>
+
+                                        <p>แผนพัฒนาท้องถิ่น</p>
+                                        <hr>
+
+                                        <p>รายงานการติดตามเเละประเมินผลแผนพัฒนาท้องถิ่น</p>
+                                        <hr>
+                                        
+                                        <p>แผนการดำเนินงาน/ประจำปี</p>
+                                        <hr>
+
+                                        <p>รายงานผลการดำเนินงาน/ประจำปี</p>
+                                        <hr>
+
+                                        <p>งานตรวจสอบภายใน</p>
+                                        <hr>
+
+                                        <p>งานควบคุมภายใน</p>
+                                        <hr>
+
+                                        <p>การบริหารจัดการความเสี่ยง (Risk Management)</p>
+                                        <hr>
+
+                                        <p>การจัดการองค์ความรู้ (KM)</p>
+                                        <hr>
+
+                                        <p>รายงานผลการประเมินประสิทธิภาพ (LPA) / ประจำปี</p>
+                                        <hr>
+
+                                        <p>แผนแม่บทเทคโนโลยีสารสนเทศ</p>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.umd.min.js"
+    ></script>
+  </body>
+</html>

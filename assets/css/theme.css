@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Anuphan', sans-serif;
+}
+
+hr.new4 {
+    border: 5px solid #007fc4;
+}
