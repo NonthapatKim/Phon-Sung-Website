@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>เทศบาลตำบลโพนสูง</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="/">
+              <img
+                src="assets/img/logo_Phongsung_sub_header.png"
+                width="350"
+                height="50"
+                alt="logo_header"
+              />
+            </a>
+  
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto d-lg-none d-xl-none mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+  
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+  
+    <!-- Desktop-Navbar -->
+    <section
+        class="Nav-desktop container-fluid p-3 d-none d-sm-none d-md-none d-lg-block d-xl-block"
+        style="background-color: #007fc4"
+      >
+        <div class="container">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link text-white active" aria-current="page" href="/"
+                >หน้าหลัก</a
+              >
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">ข้อมูลพื้นฐาน</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">ข่าวประชาสัมพันธ์</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">ภาพกิจกรรม</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">ประกาศจัดซื้อจัดจ้าง</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">ติดต่อหน่วยงาน</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">สำหรับผู้ดูแลระบบ</a>
+            </li>
+          </ul>
+        </div>
+    </section>
+
+    <!-- ITA -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="mt-5 mb-5">
+                    <h4 class="lh-base text-center">การประเมินคุณธรรมและความโปร่งใสในการดำเนินงานของหน่วยงานภาครัฐ ประจำปีงบประมาณ พ.ศ.2566 <br/> (Open Data Integrity & Transparency Assessment : OIT)</h4>
+                </div>
+
+                <div class="ITA-Detail">
+                    <div class="row">
+                        <!-- ข้อมูลพื้นฐาน -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">ข้อมูลพื้นฐาน</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O1 – <a href="#">โครงสร้าง</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "ข้อมูลพื้นฐาน" หัวข้อ "โครงสร้างองค์กร"</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O2 – <a href="#">ข้อมูลผู้บริหาร</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "ทำเนียบบุคลากร" หัวข้อ "ผู้บริหาร"</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O3 – <a href="#">อำนาจหน้าที่</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "ข้อมูลพื้นฐาน" หัวข้อ "อำนาจและหน้าที่"</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O4 – <a href="#">แผนยุทธศาสตร์หรือแผนพัฒนาหน่วยงาน</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "แผนงาน / งบประมาณ" หัวข้อ "แผนพัฒนาท้องถิ่น" >> แผนพัฒนาท้องถิ่นห้าปี พ.ศ.2566-2570</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O5 – <a href="#">ข้อมูลการติดต่อ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "ติดต่อหน่วยงาน" หัวข้อ "ติดต่อหน่วยงาน"</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O6 – <a href="#">กฎหมายที่เกี่ยวข้อง</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "ศูนย์ข้อมูลข่าวสาร" หัวข้อ "กฎหมายที่เกี่ยวข้อง" >> รวมกฎหมาย/ประกาศ/ระเบียบ ที่ออกตามความในพระราชบัญญัติ และที่แก้ไขเพิ่มเติมและกฎหมายอื่นที่เกี่ยวข้อง</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- การประชาสัมพันธ์ -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-pr mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">การประชาสัมพันธ์</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="fs-6">O7 – ข่าวประชาสัมพันธ์</p>
+
+                                                <p>
+                                                    <a href="#">ข่าวประชาสัมพันธ์ (ลิงก์ที่ 1)</a> <br/>
+                                                    <a href="#">ข่าวกิจกรรม (ลิงก์ที่ 2)</a>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                1.อยู่ที่เมนู "ข่าวประชาสัมพันธ์" หัวข้อ "ข่าวประชาสัมพันธ์ เป็นข้อมูลข่าวสารที่เกิดขึ้นในปี พ.ศ.2566 <br/> <br/>
+                                                2.อยู่ที่เมนู "ภาพกิจกรรม" หัวข้อ "ข่าวกิจกรรม" เป็นข้อมูลข่าวสารที่เกิดขึ้นในปี พ.ศ.2566
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- การปฏิสัมพันธ์ข้อมูล -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">การปฏิสัมพันธ์ข้อมูล</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O8 – <a href="#">Q&A</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "หน้าแรก" หัวข้อ "มีภาพแบนเนอร์ Webboard หรือ กระดาน-ถามตอบ (Q&A)"</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O9 – <a href="#">Social Network</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การปฏิบัติงาน / ให้บริการ" หัวข้อ "E-Service / Social Network" มีภาพแบนเนอร์ Social Network Facebook หน่วยงาน และปลั๊กอินของเพจเฟสบุ๊คแสดง</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="fs-6">O10 – นโยบายคุ้มครองข้อมูลส่วนบุคคล</p>
+
+                                                <p>
+                                                    <a href="#">นโยบายเกี่ยวกับคุกกี้ (Cookies Policy) (ลิงก์ที่ 1)</a> <br/>
+                                                    <a href="#">ประกาศนโยบายคุ้มครองข้อมูลส่วนบุคคล (pdf) (ลิงก์ที่ 2)</a>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                อยู่ที่เมนู "การปฏิบัติงาน / ให้บริการ" ในหัวข้อ 
+                                                <br/><br/>
+                                                1.นโยบายเกี่ยวกับคุกกี้ (Cookies Policy)
+                                                <br/><br/>
+                                                2.ประกาศนโยบายคุ้มครองข้อมูลส่วนบุคคล (pdf)
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- ตัวชี้วัดย่อยที่ 9.2 การบริหารงาน -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">ตัวชี้วัดย่อยที่ 9.2 การบริหารงาน</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O11 – <a href="#">แผนดำเนินงานประจำปี</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "แผนงาน / งบประมาณ" หัวข้อ "แผนการดำเนินงาน / ประจำปี" เป็นแผนที่มีระยะเวลาบังคับใช้ในปี พ.ศ.2566</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O12 – <a href="#">รายงานการกำกับติดตามการดำเนินงานประจำปี รอบ 6 เดือน</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "แผนงาน / งบประมาณ" หัวข้อ "รายงานการกำกับติดตามการดำเนินงานประจำปี (รอบ 6 เดือน)" >> รายงานการกำกับติดตามการดำเนินงาน ประจำปีงบประมาณ พ.ศ.2566</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O13 – <a href="#">รายงานผลการดำเนินงานประจำปี</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "แผนงาน / งบประมาณ" หัวข้อ "รายงานผลการดำเนินงาน / ประจำปี" >> รายงานผลการดำเนินงาน ประจำปีงบประมาณ พ.ศ.2565</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- การปฏิบัติงาน -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">การปฏิบัติงาน</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O14 – <a href="#">คู่มือหรือมาตรฐานการปฏิบัติงาน</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การปฏิบัติงาน / ให้บริการ" หัวข้อ "คู่มือหรือมาตรฐานการปฏิบัติงาน"</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O15 – <a href="#">คู่มือหรือมาตรฐานการให้บริการ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การปฏิบัติงาน / ให้บริการ" หัวข้อ "คู่มือหรือมาตรฐานการให้บริการ"</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O16 – <a href="#">ข้อมูลเชิงสถิติการให้บริการ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การปฏิบัติงาน / ให้บริการ" หัวข้อ "ข้อมูลเชิงสถิติการให้บริการ" เป็นรายงานของปีงบประมาณ 2566 (รอบ 6 เดือนแรก)</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O17 – <a href="#">รายงานผลการสำรวจความพึงพอใจการให้บริการ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การปฏิบัติงาน / ให้บริการ" หัวข้อ "รายงานผลการสำรวจความพึงพอใจการให้บริการ" เป็นรายงานผลของปี พ.ศ.2565 </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="fs-6">O18 – E–Service</p>
+
+                                                <p>
+                                                    <a href="#">E–Service</a> <br/>
+                                                    <a href="#">ระบบสาธารณูปโภค (ลิงก์ที่ 1)</a>
+                                                    <a href="#">คำร้องขอถังขยะ (ลิงก์ที่ 2)</a>
+                                                </p>
+                                            </td>
+                                            <td>
+                                                อยู่ที่เมนู "การปฏิบัติงาน / ให้บริการ" หัวข้อ "E-Service / Social Network" หมายเหตุ มีแบนเนอร์ระบบต่างๆ ที่ประชาชนขอรับบริการได้ทางหน้าเว็บไซต์ของหน่วยงาน หลายรายการข้างต้นตามแบนเนอร์ลิงก์
+                                                <br/><br/>
+                                                1.ระบบสาธารณูปโภค
+                                                <br/><br/>
+                                                2.คำร้องขอถังขยะ
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- การจัดซื้อจัดจ้างหรือการจัดหาพัสดุ -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">การจัดซื้อจัดจ้างหรือการจัดหาพัสดุ</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O19 – <a href="#">แผนการจัดซื้อจัดจ้างหรือแผนการจัดหาพัสดุ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การจัดซื้อจัดจ้างหรือการจัดหาพัสดุ" หัวข้อ "แผนการจัดซื้อจัดจ้าง / หรือการจัดหาพัสดุ" >> แผนการจัดซื้อจัดจ้าง ประจำปีงบประมาณ พ.ศ.2566</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O20 – <a href="#">ประกาศต่าง ๆ เกี่ยวกับการจัดซื้อจัดจ้างหรือการจัดหาพัสดุ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "ประกาศจัดซื้อจัดจ้าง" หัวข้อ "ประกาศจัดซื้อจัดจ้าง" เป็นข้อมูลการจัดซื้อจัดจ้างในปี พ.ศ.2566</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O21 – <a href="#">สรุปผลการจัดซื้อจัดจ้างหรือการจัดหาพัสดุรายเดือน</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การจัดซื้อจัดจ้างหรือการจัดหาพัสดุ" หัวข้อ "สรุปผลการจัดซื้อจัดจ้างหรือการจัดหาพัสดุ / รายเดือน" เป็นข้อมูลแบบรายเดือน ที่มีข้อมูลครอบคลุมในระยะ 6 เดือนแรก ของปีงบประมาณ พ.ศ.2566</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O22 – <a href="#">รายงานผลการจัดซื้อจัดจ้างหรือการจัดหาพัสดุประจำปี</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การจัดซื้อจัดจ้างหรือการจัดหาพัสดุ" หัวข้อ "รายงานผลการจัดซื้อจัดจ้างหรือการจัดหาพัสดุ / ประจําปี" >> รายงานผลการจัดซื้อจัดจ้างหรือการจัดหาพัสดุ ประจำปีงบประมาณ พ.ศ.2565</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- ตัวชี้วัดย่อยที่ 9.4 การบริหารและพัฒนาทรัพยากรบุคคล การบริหารและพัฒนาทรัพยากรบุคคล -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">ตัวชี้วัดย่อยที่ 9.4 การบริหารและพัฒนาทรัพยากรบุคคล การบริหารและพัฒนาทรัพยากรบุคคล</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O23 – <a href="#">นโยบายการบริหารทรัพยากรบุคคล</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การบริหารและพัฒนาทรัพยากรบุคคล" หัวข้อ "นโยบายการบริหารทรัพยากรบุคคล" เป็นนโยบายหรือแผนฯ ที่ใช้บังคับในปี พ.ศ.2566</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O24 – <a href="#">การดำเนินการตามนโยบายการบริหารทรัพยากรบุคคล</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การบริหารและพัฒนาทรัพยากรบุคคล" หัวข้อ "การดำเนินการตามนโยบายการบริหารทรัพยากรบุคคล" เป็นการดำเนินการ ในปีงบประมาณ 2566</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O25 – <a href="#">หลักเกณฑ์การบริหารและพัฒนาทรัพยากรบุคคล</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การบริหารและพัฒนาทรัพยากรบุคคล" หัวข้อ "หลักเกณฑ์การบริหารและพัฒนาทรัพยากรบุคคล" เป็นหลักเกณฑ์ฯ ที่ใช้บังคับในปีงบประมาณ พ.ศ.2566</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O26 – <a href="#">รายงานผลการบริหารและพัฒนาทรัพยากรบุคคลประจำปี</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การบริหารและพัฒนาทรัพยากรบุคคล" หัวข้อ "รายงานผลการบริหารและพัฒนาทรัพยากร / ประจำปี" >> รายงานผลการบริหารและพัฒนาทรัพยากรบุคคล ประจำปีงบประมาณ พ.ศ.2565</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- ตัวชี้วัดย่อยที่ 9.5 การส่งเสริมความโปร่งใส การจัดการเรื่องร้องเรียนการทุจริตและประพฤติมิชอบ -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">ตัวชี้วัดย่อยที่ 9.5 การส่งเสริมความโปร่งใส การจัดการเรื่องร้องเรียนการทุจริตและประพฤติมิชอบ</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O27 – <a href="#">แนวปฏิบัติการจัดการเรื่องร้องเรียนการทุจริตและประพฤติมิชอบ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การส่งเสริมความโปร่งใส" หัวข้อ "แนวปฏิบัติการจัดการเรื่องร้องเรียนการทุจริตและประพฤติมิชอบ" >> คู่มือการปฏิบัติงานในการดำเนินการต่อเรื่องร้องเรียนการทุจริตและประพฤติมิชอบ ประจำปีงบประมาณ พ.ศ.2566</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O28 – <a href="#">ช่องทางแจ้งเรื่องร้องเรียนการทุจริตและประพฤติมิชอบ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การส่งเสริมความโปร่งใส" หัวข้อ "ระบบแจ้งเรื่องร้องเรียนการทุจริตและประพฤติมิชอบของเจ้าหน้าที่รัฐ"</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O29 – <a href="#">ข้อมูลเชิงสถิติเรื่องร้องเรียนการทุจริตและประพฤติมิชอบ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การส่งเสริมความโปร่งใส" หัวข้อ "ข้อมูลเชิงสถิติเรื่องร้องเรียนการทุจริตและประพฤติมิชอบ" เป็นรายงานของปีงบประมาณ 2566 (รอบ 6 เดือนแรก)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- การเปิดโอกาสให้เกิดการมีส่วนร่วม -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">การเปิดโอกาสให้เกิดการมีส่วนร่วม</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O30 – <a href="#">การเปิดโอกาสให้เกิดการมีส่วนร่วม</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การดำเนินการป้องกันการทุจริต" หัวข้อ "การเปิดโอกาสให้เกิดการมีส่วนร่วม" เป็นการดำเนินการ ในปีงบประมาณ 2566</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- ตัวชี้วัดย่อยที่ 10.1 การดำเนินการเพื่อป้องกันการทุจริต นโยบาย No Gift policy -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">ตัวชี้วัดย่อยที่ 10.1 การดำเนินการเพื่อป้องกันการทุจริต นโยบาย No Gift policy</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O31 – <a href="#">ประกาศเจตนารมณ์นโยบาย No Gift policy จากการปฏิบัติหน้าที่</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การดำเนินการป้องกันการทุจริต" หัวข้อ "ประกาศเจตนารมณ์นโยบาย No Gift policy จากการปฏิบัติหน้าที่"</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O32 – <a href="#">การสร้างวัฒนธรรม No Gift policy</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การดำเนินการป้องกันการทุจริต" หัวข้อ "การสร้างวัฒนธรรม No Gift policy"</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O33 – <a href="#">รายงานผลตามนโยบาย No Gift policy</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การดำเนินการป้องกันการทุจริต" หัวข้อ "รายงานผลตามนโยบาย No Gift policy"</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- การประเมินความเสี่ยงเพื่อป้องกันการทุจริต -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">การประเมินความเสี่ยงเพื่อป้องกันการทุจริต</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O34 – <a href="#">การประเมินความเสี่ยงการทุจริตและประพฤติมิชอบประจำปี</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การดำเนินการป้องกันการทุจริต" หัวข้อ "การประเมินความเสี่ยงการทุจริตและประพฤติมิชอบประจำปี" เป็นการดำเนินการ ในปีงบประมาณ 2566</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O35 – <a href="#">การดำเนินการเพื่อจัดการความเสี่ยงทุจริตและประพฤติมิชอบ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การดำเนินการป้องกันการทุจริต" หัวข้อ "การดำเนินการเพื่อจัดการความเสี่ยงทุจริตและประพฤติมิชอบ" เป็นการดำเนินการในปีงบประมาณ พ.ศ.2566</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- แผนป้องกันการทุจริต -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">แผนป้องกันการทุจริต</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O36 – <a href="#">แผนปฏิบัติการป้องกันการทุจริต</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การปฏิบัติการป้องกันการทุจริต" หัวข้อ "แผนปฏิบัติการป้องกันการทุจริต" เป็นแผนที่มีระยะเวลาบังคับใช้ควบคุม ในปีงบประมาณ พ.ศ.2566</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O37 – <a href="#">รายงานการกำกับติดตามการดำเนินการป้องกันการทุจริต ประจำปี รอบ 6 เดือน </a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การปฏิบัติการป้องกันการทุจริต" หัวข้อ "รายงานการกำกับติดตามการดำเนินการป้องกันการทุจริต ประจำปี รอบ 6 เดือน" เป็นรายงานของปีงบประมาณ 2566 (รอบ 6 เดือนแรก)</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O38 – <a href="#">รายงานผลการดำเนินการป้องกันการทุจริตประจำปี</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "การปฏิบัติการป้องกันการทุจริต" หัวข้อ "รายงานผลการดำเนินการป้องกันการทุจริต / ประจำปี" >> รายงานผลการดำเนินการตามแผนป้องกันการทุจริต ประจําปีงบประมาณ 2565</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- ตัวชี้วัดย่อย 10.2 มาตรการส่งเสริมคุณธรรมและความโปร่งใส มาตรการเสริมสร้างมาตรฐานทางจริยธรรม * ดูแนวทางและรายละเอียดเพิ่มเติมได้ทางเว็บไซต์สำนักงาน ก.พ -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">ตัวชี้วัดย่อย 10.2 มาตรการส่งเสริมคุณธรรมและความโปร่งใส มาตรการเสริมสร้างมาตรฐานทางจริยธรรม <span style="color: #ffe608;">* ดูแนวทางและรายละเอียดเพิ่มเติมได้ทางเว็บไซต์สำนักงาน ก.พ</span></h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O39 – <a href="#">ประมวลจริยธรรมสำหรับเจ้าหน้าที่ของรัฐ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "มาตรฐานภายในเพื่อส่งเสริมความโปร่งใสและป้องกันการทุจริตภายในหน่วยงาน / มาตรการเสริมสร้างมาตรฐานทางจริยธรรม" หัวข้อ "ประมวลจริยธรรมสำหรับเจ้าหน้าที่ของรัฐ"</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O40 – <a href="#">การขับเคลื่อนจริยธรรม</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "มาตรฐานภายในเพื่อส่งเสริมความโปร่งใสและป้องกันการทุจริตภายในหน่วยงาน / มาตรการเสริมสร้างมาตรฐานทางจริยธรรม" หัวข้อ "การขับเคลื่อนจริยธรรม" เป็นการดำเนินการในปีงบประมาณ พ.ศ.2566</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O41 – <a href="#">การประเมินจริยธรรมเจ้าหน้าที่ของรัฐ</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "มาตรฐานภายในเพื่อส่งเสริมความโปร่งใสและป้องกันการทุจริตภายในหน่วยงาน / มาตรการเสริมสร้างมาตรฐานทางจริยธรรม" หัวข้อ "การประเมินจริยธรรมเจ้าหน้าที่ของรัฐ" เป็นการดำเนินการในปีงบประมาณ พ.ศ.2566</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- ตัวชี้วัดย่อย 10.2 มาตรการส่งเสริมคุณธรรมและความโปร่งใส มาตรการเสริมสร้างมาตรฐานทางจริยธรรม -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="table-standard mb-5">
+                                <div class="p-3" style="background-color: #007fc4">
+                                    <h5 class="text-white text-center">ตัวชี้วัดย่อย 10.2 มาตรการส่งเสริมคุณธรรมและความโปร่งใส มาตรการเสริมสร้างมาตรฐานทางจริยธรรม</h5>
+                                </div>
+            
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table-info">
+                                          <th scope="col">คลิกหัวข้อ เพื่อดู URL</th>
+                                          <th scope="col">คำอธิบาย</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O42 – <a href="#">มาตรการส่งเสริมคุณธรรมและความโปร่งใสภายในหน่วยงาน</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "มาตรฐานภายในเพื่อส่งเสริมความโปร่งใสและป้องกันการทุจริตภายในหน่วยงาน" หัวข้อ "มาตรการส่งเสริมคุณธรรมและความโปร่งใสภายในหน่วยงาน"</td>
+                                        </tr>
+
+                                        <tr class="table-active">
+                                            <td>
+                                                <p class="text-primary fs-6">
+                                                    O43 – <a href="#">การดำเนินการตามมาตรการส่งเสริมคุณธรรมและความโปร่งใสภายในหน่วยงาน</a>
+                                                </p>
+                                            </td>
+                                            <td>อยู่ที่เมนู "มาตรฐานภายในเพื่อส่งเสริมความโปร่งใสและป้องกันการทุจริตภายในหน่วยงาน" หัวข้อ "การดำเนินการตามมาตรการส่งเสริมคุณธรรมและความโปร่งใสภายในหน่วยงาน" เป็นการดำเนินการในปีงบประมาณ พ.ศ.2566</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.0.0/mdb.umd.min.js"
+    ></script>
+</body>
+</html>
